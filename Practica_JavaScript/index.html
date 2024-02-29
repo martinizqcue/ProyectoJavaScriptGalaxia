@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>LA GUÍA DEL VIAJERO INTERGALÁCTICO</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>LA GUÍA DEL VIAJERO INTERGALÁCTICO</h1>
+
+        <div class="explicacion">
+            <br>
+            <h2>Explicación del juego</h2>
+            <p>Se desarrollará en un tablero de 42 casillas y 3 dados especiales de nueve lados.
+                Las galaxias se representan por direcciones de 3 dígitos y el jugador comienza en la
+                casilla 1 en la galaxia con dirección 000.
+                El viajero lanza los 3 dados al mismo tiempo para obtener una dirección y el resultado
+                es la dirección de la galaxia.
+                El viajero puede ir avanzando mientras las galaxias sean cercanas. Son cercanas si
+                se encuentran menos o igual a 4 años luz.</p>
+            <br>
+            <h2>¿Cómo se calcula la cercanía?</h2>
+            <p>¿Cómo proceder?
+                Por ejemplo:
+                Galaxia 000 → 0+0+0=0
+                Galaxia 184 → 1+8+4 = 13 → 1+ 3 = 4
+                Galaxia 231 → 2+3+1=6
+                Las galaxias son cercanas porque calculamos la diferencia absoluta de |0-4|= 4 y
+                avanzas 4 casillas. Me encuentro en la casilla 4
+                La siguiente tirada será:
+                Galaxia 184 → 1+8+4 = 13 → 1+ 3 = 4
+                Galaxia 231 → 2+3+1=6
+                Cuya diferencia absoluta será |4-6|=2. Avanzamos a la casilla 6 y así sucesivamente</p>
+            <br>
+            <h2>¡¡¡PELIGROS!!!</h2>
+            <li>Si un jugador cae en la casilla 31, se encontrará con unos extraterrestres
+                peligrosos haciendo que le retrasen a la casilla 13</li>
+            <li>Si un jugador cae en la casilla 33, se encontrará un agujero negro y perderá el
+                juego</li>
+            <br>
+            <h2>FIN del juego</h2>
+            <p>El juego termina si llega a la casilla 42. Si la sobrepasa, deberá volver a la casilla 1.
+                También terminará si cae en el agujero negro.</p>
+            <br>
+            <!-- Enlace para otro html -->
+            <a href="juego.html">Jugar</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
